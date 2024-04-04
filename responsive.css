@@ -1,0 +1,33 @@
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .card {
+      flex: 1 0 30%;
+      max-width: 17.625rem;
+    }
+  }
+
+  /* Desktop */
+  @media screen and (min-width: 1024px) {
+    .card {
+      flex: 1 0 20%;
+    }
+  }
+
+  img {
+    border-bottom: 0.25rem solid #fc0;
+    border-radius: 0.25rem 0.25rem 0 0;
+    height: auto;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    img {
+      min-height: 15.5rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    img {
+      min-height: 16.375rem;
+    }
+  }
