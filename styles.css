@@ -1,66 +1,63 @@
 .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
 
-  .card {
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
-    max-width: 21.1875rem;
-    flex: 1 0 45%;
-  }
-
-  /* Tablet */
-  @media screen and (min-width: 768px) {
-    .card {
-      flex: 1 0 30%;
-      max-width: 17.625rem;
-    }
-  }
-
-  /* Desktop */
-  @media screen and (min-width: 1024px) {
-    .card {
-      flex: 1 0 20%;
-    }
-  }
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+  max-width: 21.1875rem;
+  flex: 1 0 45%;
 
   img {
-    border-bottom: 0.25rem solid #fc0;
-    border-radius: 0.25rem 0.25rem 0 0;
-    height: auto;
-    width: 100%;
+    max-width: 100%;
+    min-height: auto;
   }
+}
 
-  @media screen and (min-width: 768px) {
-    img {
-      min-height: 15.5rem;
-    }
-  }
+.caption {
+  padding: 0 3rem 0rem 3rem;
+}
 
-  @media screen and (min-width: 1200px) {
-    img {
-      min-height: 16.375rem;
-    }
-  }
+.card-content {
+  padding: 1rem;
+}
 
-  .card-content {
-    padding: 1rem;
-  }
+.header,
+.subheader {
+  margin: 0;
+}
 
-  .header,
-  .subheader {
-    margin: 0;
-  }
+input {
+  border: 2px solid grey;
+  font-size: 1rem;
+  width: 80%;
+  height: 1rem;
+  border-radius: 25px;
+  margin-bottom: 3rem;
+  padding: 3rem;
+}
 
-  input {
-    border: 2px solid grey;
-    font-size: 1rem;
-    width: 80%;
-    height: 1rem;
-    border-radius: 25px;
-    margin-bottom: 3rem;
-    padding: 1rem;
-  }
+select {
+  width: 40%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid grey;
+  border-radius: 25px;
+  appearance: none;
+  background-color: white;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M7 10l5 5 5-5z" /></svg>'); /* Adds a custom arrow icon */
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+}
+
+
+.button {
+  padding: 0.7rem;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(226, 107, 43);
+}
