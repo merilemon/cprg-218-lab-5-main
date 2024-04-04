@@ -1,3 +1,9 @@
+.header-container {
+  img {
+    position: relative;
+  }
+}
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -14,8 +20,13 @@
   img {
     max-width: 100%;
     min-height: auto;
+      border-bottom: 0.25rem solid #fc0;
+      border-radius: 0.25rem 0.25rem 0 0;
+      height: auto;
+      width: 100%;
+    }
   }
-}
+
 
 .caption {
   padding: 0 3rem 0rem 3rem;
