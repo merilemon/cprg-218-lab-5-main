@@ -31,7 +31,7 @@ fetch(apiUrl , {
 // submit button
 document.getElementById('submit-button').addEventListener('click', function() {
     const selectedBreedId = document.getElementById('dropdown').value;
-    fetch(`https://api.thecatapi.com/v1/images/search?limit=20&breed_id=${selectedBreedId}`, {
+    fetch(`https://api.thecatapi.com/v1/images/search?limit=10&breed_id=${selectedBreedId}`, {
       headers: {
         'x-api-key': apiKey
       }

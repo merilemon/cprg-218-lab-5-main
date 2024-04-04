@@ -185,6 +185,3 @@ function searchbarEventHandler() {
     }
   }
 }
-
-const searchbar = document.getElementById("searchbar");
-searchbar.addEventListener("keyup", searchbarEventHandler);
